@@ -1,8 +1,4 @@
-# React + Vite
+# Formula one Feed
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto fictício de uma Rede social da formula 1, com pilotos reais e publicações, e interações com posts, espero que curta esse projeto e deixe uma estrela para mim!
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
