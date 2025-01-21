@@ -1,12 +1,14 @@
+import { Avatar } from './Avatar';
 import { Comment } from './Comment';
 import styles from './Post.module.css';
 
 export function Post(props){
+    console.log(props);
     return(
 <article className={styles.post}>
     <header className={styles.cabecalhoPost}>
         <div className={styles.author}>
-            <img className={styles.avatar} src="https://imageio.forbes.com/specials-images/imageserve/6753832b78f53643f93a2dbc/0x0.jpg?format=jpg&crop=1263,1266,x300,y30,safe&height=1116&width=716&fit=bounds" alt="" />
+            <Avatar src="https://imageio.forbes.com/specials-images/imageserve/6753832b78f53643f93a2dbc/0x0.jpg?format=jpg&crop=1263,1266,x300,y30,safe&height=1116&width=716&fit=bounds" alt="" />
             <div className={styles.authorInfo}>
                 <strong>Charles Leclerc</strong>
                 <span>Formula 1 Driver</span>
