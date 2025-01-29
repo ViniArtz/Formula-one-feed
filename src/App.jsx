@@ -35,7 +35,7 @@ const posts = [
       },
       {type: 'link', 
       content: 'https://x.com/ScuderiaFerrari',
-      PlaceHolder:'@scuderiaferrari'
+      placeHolder:'@scuderiaferrari'
       }
     ],
     publishedAt: new Date('2024-09-14 20:00:00')
@@ -60,7 +60,7 @@ const posts = [
       },
       {type: 'link', 
       content: 'https://x.com/redbullracing',
-      PlaceHolder:'@redbullracing'
+      placeHolder:'@redbullracing'
       }
     ],
     publishedAt: new Date('2023-11-29 20:00:00')
